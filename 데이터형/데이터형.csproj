@@ -48,7 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="데이터형1.md" />
+    <None Include="데이터형.md" />
+    <None Include="박싱,표준입력.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

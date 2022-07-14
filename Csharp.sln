@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp 프로그래밍 기�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "데이터형", "데이터형\데이터형.csproj", "{1EFCDF86-90AA-4DA9-9D04-EF086A2D6A6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "데이터형2", "데이터형2\데이터형2.csproj", "{049EAF4C-EF0F-4C37-96D1-08E7D66A0609}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1EFCDF86-90AA-4DA9-9D04-EF086A2D6A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EFCDF86-90AA-4DA9-9D04-EF086A2D6A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EFCDF86-90AA-4DA9-9D04-EF086A2D6A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{049EAF4C-EF0F-4C37-96D1-08E7D66A0609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049EAF4C-EF0F-4C37-96D1-08E7D66A0609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{049EAF4C-EF0F-4C37-96D1-08E7D66A0609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{049EAF4C-EF0F-4C37-96D1-08E7D66A0609}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

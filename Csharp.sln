@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp기본문법", "CShar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "배열", "배열\배열.csproj", "{AA04A3E6-13E1-4056-8E57-145DE80EBE76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "파일입출력", "파일입출력\파일입출력.csproj", "{CABB075D-0D95-4AE4-AC0E-3D66DA6C0FCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AA04A3E6-13E1-4056-8E57-145DE80EBE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA04A3E6-13E1-4056-8E57-145DE80EBE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA04A3E6-13E1-4056-8E57-145DE80EBE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CABB075D-0D95-4AE4-AC0E-3D66DA6C0FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABB075D-0D95-4AE4-AC0E-3D66DA6C0FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABB075D-0D95-4AE4-AC0E-3D66DA6C0FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABB075D-0D95-4AE4-AC0E-3D66DA6C0FCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

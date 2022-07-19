@@ -91,7 +91,7 @@ namespace 배열
         }
     }*/
 
-    class Program
+    /*class Program
     {
         static void TransArray(string[] arr)
         {
@@ -109,6 +109,80 @@ namespace 배열
             TransArray(Days);
             foreach (string str in Days)
                 Console.Write(str + " ");
+        }
+    }*/
+
+    /*class Program
+    {
+        static int[] CreateArray1(int nSize)
+        {
+            int[] Array1 = new int[nSize];
+            for (int i = 0; i < Array1.Length; i++)
+                Array1[i] = i;
+
+            return Array1;
+        }
+
+        static int[,] CreateArray2(int nRow, int nCol)
+        {
+            int index = 0;
+            int[,] Array2 = new int[nRow, nCol];
+            for (int i = 0; i < nRow; i++)
+                for (int j = 0; j < nCol; j++)
+                    Array2[i, j] = index++;
+
+            return Array2;
+        }
+        static void Main(string[] args)
+        {
+            int[] nArray1;
+            int[,] nArray2;
+
+            nArray1 = CreateArray1(5);
+            nArray2 = CreateArray2(2, 3);
+
+            for (int i = 0; i < nArray1.Length; i++)
+                Console.Write(nArray1[i]);
+            Console.WriteLine();
+            for (int i = 0; i < 2; i++)
+                for (int j = 0; j < 3; j++)
+                    Console.Write(nArray2[i, j]);
+            Console.WriteLine();
+        }
+    }*/
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*int[] nArray1 = { 1, 2, 3, 4, 5 };
+            Array.Clear(nArray1, 2, 3);
+            foreach (int m in nArray1)
+                Console.Write(m);
+            Console.WriteLine();
+
+            Array.Clear(nArray1, 0, nArray1.Length);
+            foreach (int m in nArray1)
+                Console.Write(m);
+            Console.WriteLine();*/
+
+            int[] nArray1 = { 1, 2, 3, 4 };
+            // nCloneArray 은 참조형이 아니라 1,2,3,4 값을 가지고 있는 하나의 객체로서 동작
+            int[] nCloneArray = (int[])nArray1.Clone();
+
+            nCloneArray[2] = 30;
+            foreach (int m in nArray1)
+                Console.Write(m);
+            Console.WriteLine();
+
+            foreach (int m in nCloneArray)
+                Console.Write(m);
+            Console.WriteLine();
+
+            string[] Days = { "일", "월", "화", "수", "목", "금", "토" };
+            string[] DaysClone = (string[])Days.Clone();
+            foreach (string str in DaysClone)
+                Console.Write(str);
         }
     }
 }

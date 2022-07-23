@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CABB075D-0D95-4AE4-AC0E-3D66DA6C0FCE}</ProjectGuid>
+    <ProjectGuid>{5313A19A-D9EB-4132-AF55-9F46DC43BA9B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>파일입출력</RootNamespace>
-    <AssemblyName>파일입출력</AssemblyName>
+    <RootNamespace>파일입출력2</RootNamespace>
+    <AssemblyName>파일입출력2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,7 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="파일 입출력.md" />
+    <None Include="파일입출력2%28직렬화%29.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

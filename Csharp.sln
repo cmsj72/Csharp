@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "파일입출력", "파일�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "파일입출력2", "파일입출력2\파일입출력2.csproj", "{5313A19A-D9EB-4132-AF55-9F46DC43BA9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "스마트밥솥", "스마트밥솥\스마트밥솥.csproj", "{848F0B7C-952E-4FE9-9F6A-39234F562234}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{5313A19A-D9EB-4132-AF55-9F46DC43BA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5313A19A-D9EB-4132-AF55-9F46DC43BA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5313A19A-D9EB-4132-AF55-9F46DC43BA9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848F0B7C-952E-4FE9-9F6A-39234F562234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848F0B7C-952E-4FE9-9F6A-39234F562234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848F0B7C-952E-4FE9-9F6A-39234F562234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848F0B7C-952E-4FE9-9F6A-39234F562234}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

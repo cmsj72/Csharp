@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{848F0B7C-952E-4FE9-9F6A-39234F562234}</ProjectGuid>
+    <ProjectGuid>{1C0234D9-0ACC-4278-8307-246ED09FE338}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>스마트밥솥</RootNamespace>
-    <AssemblyName>스마트밥솥</AssemblyName>
+    <RootNamespace>클래스</RootNamespace>
+    <AssemblyName>클래스</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,7 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="스마트 밥솥.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

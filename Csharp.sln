@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "클래스", "클래스\클�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "속성과인덱서", "속성과인덱서\속성과인덱서.csproj", "{FFC9925D-14DD-452D-B359-ECAA31768E68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "델리게이트와이벤트", "델리게이트와이벤트\델리게이트와이벤트.csproj", "{8FA86105-8A9C-4CEA-B6F8-8358ED404E0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{FFC9925D-14DD-452D-B359-ECAA31768E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFC9925D-14DD-452D-B359-ECAA31768E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFC9925D-14DD-452D-B359-ECAA31768E68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA86105-8A9C-4CEA-B6F8-8358ED404E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA86105-8A9C-4CEA-B6F8-8358ED404E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA86105-8A9C-4CEA-B6F8-8358ED404E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA86105-8A9C-4CEA-B6F8-8358ED404E0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

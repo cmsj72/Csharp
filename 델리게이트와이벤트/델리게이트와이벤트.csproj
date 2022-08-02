@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FFC9925D-14DD-452D-B359-ECAA31768E68}</ProjectGuid>
+    <ProjectGuid>{8FA86105-8A9C-4CEA-B6F8-8358ED404E0B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>속성과인덱서</RootNamespace>
-    <AssemblyName>속성과인덱서</AssemblyName>
+    <RootNamespace>델리게이트와이벤트</RootNamespace>
+    <AssemblyName>델리게이트와이벤트</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,7 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="속성과인덱서.md" />
+    <None Include="델리게이트와 이벤트.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

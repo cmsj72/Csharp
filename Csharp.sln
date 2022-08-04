@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp 프로그래밍 기본 구조", "ConsoleApp1\CSharp 프로그래밍 기본 구조.csproj", "{25A6B339-C644-4B46-9FD3-816F064AB6FE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "데이터형", "데이터형\데이터형.csproj", "{1EFCDF86-90AA-4DA9-9D04-EF086A2D6A6F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "데이터형2", "데이터형2\데이터형2.csproj", "{049EAF4C-EF0F-4C37-96D1-08E7D66A0609}"
@@ -27,16 +25,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "상속", "상속\상속.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "인터페이스", "인터페이스\인터페이스.csproj", "{B3B947EB-2E22-4188-AA8E-F8460D992672}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp 프로그래밍 기본 구조", "CSharp프로그래밍기본구조\CSharp 프로그래밍 기본 구조.csproj", "{25A6B339-C644-4B46-9FD3-816F064AB6FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{25A6B339-C644-4B46-9FD3-816F064AB6FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{25A6B339-C644-4B46-9FD3-816F064AB6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{25A6B339-C644-4B46-9FD3-816F064AB6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{25A6B339-C644-4B46-9FD3-816F064AB6FE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1EFCDF86-90AA-4DA9-9D04-EF086A2D6A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1EFCDF86-90AA-4DA9-9D04-EF086A2D6A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EFCDF86-90AA-4DA9-9D04-EF086A2D6A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -81,6 +77,10 @@ Global
 		{B3B947EB-2E22-4188-AA8E-F8460D992672}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3B947EB-2E22-4188-AA8E-F8460D992672}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3B947EB-2E22-4188-AA8E-F8460D992672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25A6B339-C644-4B46-9FD3-816F064AB6FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A6B339-C644-4B46-9FD3-816F064AB6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A6B339-C644-4B46-9FD3-816F064AB6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A6B339-C644-4B46-9FD3-816F064AB6FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

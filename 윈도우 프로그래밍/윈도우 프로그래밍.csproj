@@ -77,6 +77,7 @@
     </Compile>
     <None Include="운영체제와 윈도우 프로그램과의 관계.md" />
     <None Include="이벤트핸들러&amp;출력.md" />
+    <None Include="키보드.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp 프로그래밍 기�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "윈도우 프로그래밍", "윈도우 프로그래밍\윈도우 프로그래밍.csproj", "{31689F71-FAFC-48E8-9A18-A8508EDC6A3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDI", "GDI\GDI.csproj", "{1656FD7E-3537-4A55-8436-0B32939D691E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{31689F71-FAFC-48E8-9A18-A8508EDC6A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31689F71-FAFC-48E8-9A18-A8508EDC6A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31689F71-FAFC-48E8-9A18-A8508EDC6A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1656FD7E-3537-4A55-8436-0B32939D691E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1656FD7E-3537-4A55-8436-0B32939D691E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1656FD7E-3537-4A55-8436-0B32939D691E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1656FD7E-3537-4A55-8436-0B32939D691E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

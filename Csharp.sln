@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDI", "GDI\GDI.csproj", "{1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "이미지", "이미지\이미지.csproj", "{1F9C6652-3C81-4B1D-A359-FBB920F92D63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "폼과타이머", "폼과타이머\폼과타이머.csproj", "{FDD0448B-A469-45F6-B499-104E69826D6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{1F9C6652-3C81-4B1D-A359-FBB920F92D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F9C6652-3C81-4B1D-A359-FBB920F92D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F9C6652-3C81-4B1D-A359-FBB920F92D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD0448B-A469-45F6-B499-104E69826D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD0448B-A469-45F6-B499-104E69826D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD0448B-A469-45F6-B499-104E69826D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD0448B-A469-45F6-B499-104E69826D6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

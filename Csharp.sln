@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "이미지", "이미지\이�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "폼과타이머", "폼과타이머\폼과타이머.csproj", "{FDD0448B-A469-45F6-B499-104E69826D6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "메뉴", "메뉴\메뉴.csproj", "{A3789BAD-D434-4DBF-8049-E7D2DD01E440}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{FDD0448B-A469-45F6-B499-104E69826D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDD0448B-A469-45F6-B499-104E69826D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDD0448B-A469-45F6-B499-104E69826D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3789BAD-D434-4DBF-8049-E7D2DD01E440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3789BAD-D434-4DBF-8049-E7D2DD01E440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3789BAD-D434-4DBF-8049-E7D2DD01E440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3789BAD-D434-4DBF-8049-E7D2DD01E440}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

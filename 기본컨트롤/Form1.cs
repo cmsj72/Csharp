@@ -16,6 +16,11 @@ namespace 기본컨트롤
         public Form1()
         {
             InitializeComponent();
+            textBox11.Text = hScrollBar1.Value.ToString();
+            textBox13.Text = "0";
+
+            domainUpDown1.SelectedIndex = 0;
+            textBox14.Text = domainUpDown1.Text;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -123,6 +128,39 @@ namespace 기본컨트롤
         private void button9_Click(object sender, EventArgs e)
         {
             listBox2.Items.Clear();
+        }
+
+        private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+            textBox11.Text = hScrollBar1.Value.ToString();
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            textBox12.Text = trackBar1.Value.ToString();
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            textBox13.Text = numericUpDown1.Value.ToString();
+        }
+
+        private void domainUpDown1_SelectedItemChanged(object sender, EventArgs e)
+        {
+            textBox14.Text = domainUpDown1.Text;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            /*pictureBox2.SizeMode = PictureBoxSizeMode.AutoSize;
+            //  이미지 파일 이름 입력
+            pictureBox2.Image = Image.FromFile("test.bmp");*/
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            /*//  버튼을 클릭시 이미지를 로드 하게 하는 코드
+            pictureBox2.Image = Image.FromFile("test.bmp");*/
         }
     }
 }

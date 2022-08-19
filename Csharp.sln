@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "메뉴", "메뉴\메뉴.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "기본컨트롤", "기본컨트롤\기본컨트롤.csproj", "{1155F14D-57F9-48B6-8365-9D6E1234B2F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "고급컨트롤", "고급컨트롤\고급컨트롤.csproj", "{B23A9106-2984-4EFB-892C-4F4E2179A644}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{1155F14D-57F9-48B6-8365-9D6E1234B2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1155F14D-57F9-48B6-8365-9D6E1234B2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1155F14D-57F9-48B6-8365-9D6E1234B2F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B23A9106-2984-4EFB-892C-4F4E2179A644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23A9106-2984-4EFB-892C-4F4E2179A644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23A9106-2984-4EFB-892C-4F4E2179A644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B23A9106-2984-4EFB-892C-4F4E2179A644}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

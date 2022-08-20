@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "기본컨트롤", "기본�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "고급컨트롤", "고급컨트롤\고급컨트롤.csproj", "{B23A9106-2984-4EFB-892C-4F4E2179A644}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "대화상자", "대화상자\대화상자.csproj", "{59DAAD30-93D7-4499-B8E4-3FD6E27AB20D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "대화상자2", "대화상자2\대화상자2.csproj", "{EB89F646-7AFD-4B92-8431-92B203486C85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{B23A9106-2984-4EFB-892C-4F4E2179A644}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B23A9106-2984-4EFB-892C-4F4E2179A644}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B23A9106-2984-4EFB-892C-4F4E2179A644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59DAAD30-93D7-4499-B8E4-3FD6E27AB20D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59DAAD30-93D7-4499-B8E4-3FD6E27AB20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59DAAD30-93D7-4499-B8E4-3FD6E27AB20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59DAAD30-93D7-4499-B8E4-3FD6E27AB20D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB89F646-7AFD-4B92-8431-92B203486C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB89F646-7AFD-4B92-8431-92B203486C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB89F646-7AFD-4B92-8431-92B203486C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB89F646-7AFD-4B92-8431-92B203486C85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

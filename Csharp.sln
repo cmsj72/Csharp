@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "대화상자", "대화상�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "대화상자2", "대화상자2\대화상자2.csproj", "{EB89F646-7AFD-4B92-8431-92B203486C85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "폼 분할", "폼 분할\폼 분할.csproj", "{FE86D01F-3ADC-4D65-92D5-642456E6A1F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{EB89F646-7AFD-4B92-8431-92B203486C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB89F646-7AFD-4B92-8431-92B203486C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB89F646-7AFD-4B92-8431-92B203486C85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE86D01F-3ADC-4D65-92D5-642456E6A1F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE86D01F-3ADC-4D65-92D5-642456E6A1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE86D01F-3ADC-4D65-92D5-642456E6A1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE86D01F-3ADC-4D65-92D5-642456E6A1F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

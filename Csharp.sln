@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "대화상자2", "대화상�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "폼 분할", "폼 분할\폼 분할.csproj", "{FE86D01F-3ADC-4D65-92D5-642456E6A1F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "자료구조", "자료구조\자료구조.csproj", "{3651E864-432D-49AE-A96A-85C8A15DEA8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "예제로배우는CSharp", "예제로배우는CSharp\예제로배우는CSharp.csproj", "{21AD1BD8-8356-4AE9-89ED-ED7A3BC3AE24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,14 @@ Global
 		{FE86D01F-3ADC-4D65-92D5-642456E6A1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE86D01F-3ADC-4D65-92D5-642456E6A1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE86D01F-3ADC-4D65-92D5-642456E6A1F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3651E864-432D-49AE-A96A-85C8A15DEA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3651E864-432D-49AE-A96A-85C8A15DEA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3651E864-432D-49AE-A96A-85C8A15DEA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3651E864-432D-49AE-A96A-85C8A15DEA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21AD1BD8-8356-4AE9-89ED-ED7A3BC3AE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21AD1BD8-8356-4AE9-89ED-ED7A3BC3AE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21AD1BD8-8356-4AE9-89ED-ED7A3BC3AE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21AD1BD8-8356-4AE9-89ED-ED7A3BC3AE24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

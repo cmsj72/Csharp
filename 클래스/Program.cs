@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace 클래스
 {
-    /*// internal 생략된 형태
-    class Date
+    // internal 생략된 형태
+    /*class Date
     {
-        *//*int Day;
-        public int Year, Month;*//*
+        //int Day;
+        //public int Year, Month;
 
         public int Year;
         protected int Month;
-        int Day;
+        int Day;//생략하면 private
         //  Month 와 Day는 내부에서만 사용 가능
 
         public void Print()
@@ -75,10 +75,10 @@ namespace 클래스
     /*class MyClass
     {
         string Message;
-        *//*public MyClass()
-        {
-            Message = "Hello World";
-        }*//*
+        //public MyClass()
+        //{
+        //  Message = "Hello World";
+        //}
 
         public MyClass(string InputMessage)
         {
@@ -100,7 +100,7 @@ namespace 클래스
     {
         static void Main(string[] args)
         {
-            *//*MyClass MyTest = new MyClass();*//*
+            //MyClass MyTest = new MyClass();
             MyClass MyTest = new MyClass("Happy!");
             MyTest.PringMessage();
         }
@@ -151,7 +151,7 @@ namespace 클래스
     }*/
 
 
-    class MyClass
+    /*class MyClass
     {
         public int number;
         public MyClass(int number)
@@ -167,5 +167,5 @@ namespace 클래스
             MyClass MyTest = new MyClass(12);
             Console.WriteLine(MyTest.number);
         }
-    }
+    }*/
 }

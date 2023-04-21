@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "예제로배우는CSharp-nu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "예제로배우는CSharp-event", "예제로배우는CSharp-event\예제로배우는CSharp-event.csproj", "{A8C3AF3F-C884-490C-A75E-DCD58D5E8369}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "예제로배우는CSharp-전처리기", "예제로배우는CSharp-전처리기\예제로배우는CSharp-전처리기.csproj", "{76C93691-7117-445E-847F-7971E745BFFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{A8C3AF3F-C884-490C-A75E-DCD58D5E8369}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8C3AF3F-C884-490C-A75E-DCD58D5E8369}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8C3AF3F-C884-490C-A75E-DCD58D5E8369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76C93691-7117-445E-847F-7971E745BFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C93691-7117-445E-847F-7971E745BFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C93691-7117-445E-847F-7971E745BFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C93691-7117-445E-847F-7971E745BFFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

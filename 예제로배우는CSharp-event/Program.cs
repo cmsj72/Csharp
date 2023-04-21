@@ -107,7 +107,7 @@ namespace 예제로배우는CSharp_event
 
     class Message
     {
-        //  object sender, EventArgs e 가 있어야한다.
+        //  object , EventArgs 파라미터가 있어야한다.
         public void func(object sender, EventArgs e)
         {
             Console.WriteLine("호출");

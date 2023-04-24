@@ -22,7 +22,6 @@ namespace 예제로배우는CSharp_Indexer
     {
         private const int MAX = 10;
         private string name;
-        int tmp;
 
         //  내부의 정수 배열 데이터
         private int[] data = new int[MAX];

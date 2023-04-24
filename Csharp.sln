@@ -79,6 +79,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "예제로배우는CSharp-�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "예제로배우는CSharp-Indexer", "예제로배우는CSharp-Indexer\예제로배우는CSharp-Indexer.csproj", "{4E196453-BC11-425C-BA34-49B12E71D3D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "예제로배우는CSharp-접근 제한자", "예제로배우는CSharp-접근 제한자\예제로배우는CSharp-접근 제한자.csproj", "{6DEF10C1-3FF3-45EF-8372-710EF453D63B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "예제로배우는CSharp-클래스 상속", "예제로배우는CSharp-클래스 상속\예제로배우는CSharp-클래스 상속.csproj", "{D94E8533-11EC-43F6-80D3-94CC45F7BE1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +241,14 @@ Global
 		{4E196453-BC11-425C-BA34-49B12E71D3D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E196453-BC11-425C-BA34-49B12E71D3D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E196453-BC11-425C-BA34-49B12E71D3D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DEF10C1-3FF3-45EF-8372-710EF453D63B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DEF10C1-3FF3-45EF-8372-710EF453D63B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DEF10C1-3FF3-45EF-8372-710EF453D63B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DEF10C1-3FF3-45EF-8372-710EF453D63B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D94E8533-11EC-43F6-80D3-94CC45F7BE1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94E8533-11EC-43F6-80D3-94CC45F7BE1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94E8533-11EC-43F6-80D3-94CC45F7BE1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94E8533-11EC-43F6-80D3-94CC45F7BE1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

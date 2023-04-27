@@ -68,4 +68,40 @@ namespace 예제로배우는CSharp_제네릭
         }
     }
     #endregion
+    #region 제네릭 타입 제약(Type Constrain)
+    //  C# 제네릭 타입을 선언할 때, 타입 파라미터가 Value Type인지 Reference Type인지,
+    //  또는 어떤 특정 Base 클래스로부터 파생된 타입인지, 어떤 인터페이스를 구현한 타입인지 등등을 지정할 수 있는데,
+    //  이는 Where T : 제약조건 과 같은 식으로 Where 뒤에 제약 조건을 붙이면 가능하다.
+    namespace Generic_Type_Constraint
+    {
+        //  T는 Value 타입
+        class MyClass1<T> where T : struct { }
+
+        //  T는 Reference 타입
+        class MyClass2<T> where T : class { }
+
+        //  T는 디폴트 생성자를 가져야 함
+        class MyClass3<T> where T : new() { }
+
+        class MyBase { }
+        //  T는 MyBase의 파생클래스이어야 함
+        class MyClass4<T> where T : MyBase { }
+
+        //  T는 IComparable 인터페이스를 가져야 함
+        class MyClass<T> where T : IComparable { }
+
+        interface IEmployee { }
+        class Employee { }
+        //  좀 더 복잡한 제약들
+        class EmployeeList<T>
+            where T : Employee, IEmployee, IComparable<T>, new()
+        { }
+
+        //  복수 타입 파라미터 제약
+        class MyClass<T, U>
+            where T : class
+            where U : struct
+        { }
+    }
+    #endregion
 }

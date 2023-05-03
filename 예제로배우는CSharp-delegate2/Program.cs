@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//using System.Windows.Forms;
+using System.Windows.Forms;
 
 namespace 예제로배우는CSharp_delegate2
 {
@@ -11,7 +11,7 @@ namespace 예제로배우는CSharp_delegate2
     //  delegate는 클래스의 필드나 속성에 사용될 수 있다.
     namespace Delegate_Field_AND_Property
     {
-        /*class MyArea : Form
+        class MyArea : Form
         {
             public MyArea()
             {
@@ -31,7 +31,7 @@ namespace 예제로배우는CSharp_delegate2
 
             void MyAreaClicked()
             {
-                if(MyClick != null)
+                if (MyClick != null)
                 {
                     MyClick(this);
                 }
@@ -52,7 +52,7 @@ namespace 예제로배우는CSharp_delegate2
             {
                 area.Text = "MyArea 클릭!";
             }
-        }*/
+        }
 
         //  MyClick 필드는 area.MyClick = Area_Click; 라는 할당 연산자 문장이 실행되어
         //  하나의 메서드 레퍼런스만을 가진다. 만약 다른 메서드를 이 필드(혹은 속성)에 할당 연산자(=)를 써서 다시 할당하면,
@@ -73,7 +73,7 @@ namespace 예제로배우는CSharp_delegate2
     //  InvocationList로부터 순서대로 메서드를 하나씩 실행
     namespace Multicast_Delegate
     {
-        /*static MyArea area;
+        static MyArea area;
 
         static void Main(string[] args)
         {
@@ -94,7 +94,7 @@ namespace 예제로배우는CSharp_delegate2
         static void AfterClick(object sender)
         {
             area.Text += " AfterClick 클릭! ";
-        }*/
+        }
     }
 
     #endregion

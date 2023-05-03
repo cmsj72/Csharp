@@ -93,6 +93,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "예제로배우는CSharp-de
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "예제로배우는CSharp-delegate2", "예제로배우는CSharp-delegate2\예제로배우는CSharp-delegate2.csproj", "{34FAA85C-E22D-44DA-A27D-E53B4DDD9982}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "예제로배우는CSharp-delegate3", "예제로배우는CSharp-delegate3\예제로배우는CSharp-delegate3.csproj", "{4A00624A-9D76-43DE-BF34-0095BEF9D3A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -279,6 +281,10 @@ Global
 		{34FAA85C-E22D-44DA-A27D-E53B4DDD9982}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34FAA85C-E22D-44DA-A27D-E53B4DDD9982}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34FAA85C-E22D-44DA-A27D-E53B4DDD9982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A00624A-9D76-43DE-BF34-0095BEF9D3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A00624A-9D76-43DE-BF34-0095BEF9D3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A00624A-9D76-43DE-BF34-0095BEF9D3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A00624A-9D76-43DE-BF34-0095BEF9D3A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,28 +7,5 @@ using System.Data.SqlClient;
 
 namespace 예제로배우는CSharp
 {
-    #region Nullable Type
-    /*class Program
-    {
-        
-    }*/
-    #endregion
-
-    #region Constant
-    /*class CSVar
-    {
-        
-    }*/
-    #endregion
-
-    #region Array
-    /*class CSharpArray
-    {
-        
-    }*/
-    #endregion
-
-
-
-
+    
 }

@@ -20,10 +20,10 @@ namespace 예제로배우는CSharp_delegate_기초
     
     class Program
     {
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             new Program().Test();
-        }
+        }*/
         //  델리게이트 정의
         delegate int MyDelegate(string s);
         void Test()

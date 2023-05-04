@@ -73,7 +73,7 @@ namespace 예제로배우는CSharp_delegate2
     //  InvocationList로부터 순서대로 메서드를 하나씩 실행
     namespace Multicast_Delegate
     {
-        static MyArea area;
+        /*static MyArea area;
 
         static void Main(string[] args)
         {
@@ -94,7 +94,7 @@ namespace 예제로배우는CSharp_delegate2
         static void AfterClick(object sender)
         {
             area.Text += " AfterClick 클릭! ";
-        }
+        }*/
     }
 
     #endregion

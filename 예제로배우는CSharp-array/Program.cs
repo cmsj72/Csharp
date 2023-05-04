@@ -8,7 +8,7 @@ namespace 예제로배우는CSharp_array
 {
     class Program
     {
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             //  1차원 배열
             string[] players = new string[10];
@@ -42,7 +42,7 @@ namespace 예제로배우는CSharp_array
             //  배열 전체를 가리키는 참조 값(Reference pointer)만을 전달
             int[] score = { 70, 80, 90, 100 };
             change(score);
-        }
+        }*/
 
         static void change(int[] arr)
         {

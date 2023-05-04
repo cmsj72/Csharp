@@ -95,6 +95,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "예제로배우는CSharp-de
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "예제로배우는CSharp-delegate3", "예제로배우는CSharp-delegate3\예제로배우는CSharp-delegate3.csproj", "{4A00624A-9D76-43DE-BF34-0095BEF9D3A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "예제로배우는CSharp-무명 메서드", "예제로배우는CSharp-무명 메서드\예제로배우는CSharp-무명 메서드.csproj", "{B16B9D6D-1A1F-4438-983E-3DA238F7A461}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +287,10 @@ Global
 		{4A00624A-9D76-43DE-BF34-0095BEF9D3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A00624A-9D76-43DE-BF34-0095BEF9D3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A00624A-9D76-43DE-BF34-0095BEF9D3A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16B9D6D-1A1F-4438-983E-3DA238F7A461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16B9D6D-1A1F-4438-983E-3DA238F7A461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16B9D6D-1A1F-4438-983E-3DA238F7A461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16B9D6D-1A1F-4438-983E-3DA238F7A461}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

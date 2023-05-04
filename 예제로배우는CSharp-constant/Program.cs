@@ -17,7 +17,7 @@ namespace 예제로배우는CSharp_constant
         //  필드 선언부나 클래스 생성자에서 그 값을 지정할 수 있고,
         //  런타임시 값이 결정된다.
         readonly int Max;
-        public CSVar()
+        /*public CSVar()
         {
             Max = 1;
         }
@@ -25,6 +25,6 @@ namespace 예제로배우는CSharp_constant
         static void Main(string[] args)
         {
 
-        }
+        }*/
     }
 }

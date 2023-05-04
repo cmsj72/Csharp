@@ -18,7 +18,7 @@ namespace 예제로배우는CSharp_delegate3
     //  외부에서도 누구라도 메서드를 호출하듯 (접근 제한이 없다면) 해당 delegate를 호출할 수 있다는 점이다.
     namespace Delegate_To_Event
     {
-        class Program
+        /*class Program
         {
             static void Main(string[] args)
             {
@@ -36,7 +36,7 @@ namespace 예제로배우는CSharp_delegate3
                 //  C# event는 불가
                 area.myClick(null);
             }
-        }
+        }*/
     }
     #endregion
 

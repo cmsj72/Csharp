@@ -44,11 +44,11 @@ namespace 예제로배우는CSharp_delegate1
         
         class Program
         {
-            static void Main(string[] args)
+            /*static void Main(string[] args)
             {
                 MyClass mc = new MyClass();
                 mc.Perform();
-            }
+            }*/
         }
     }
     #endregion
@@ -98,10 +98,10 @@ namespace 예제로배우는CSharp_delegate1
         }
         class Program
         {
-            static void Main(string[] args)
+            /*static void Main(string[] args)
             {
                 (new Program()).Run();
-            }
+            }*/
 
             void Run()
             {
